@@ -11,6 +11,9 @@ This project proposes an automated artificial intelligence (AI) pipeline for det
 
 **Objective and Automated:** The system uses raw ECG signals with no manual feature extraction, offering an unbiased, scalable solution to ADHD screening.
 
+**ECG data**
+Age-matched ECG data, ranging from 6 to 12 years old, were uploaded, including 6-second ECG recordings sampled at 500 Hz, along with age, gender, and label. The ADHD to HC ratio was 1:1 for each age group, totaling 8,644 samples. The data is provided in numpy format.
+
 **Methodology**
 
 The pipeline includes three primary steps:
