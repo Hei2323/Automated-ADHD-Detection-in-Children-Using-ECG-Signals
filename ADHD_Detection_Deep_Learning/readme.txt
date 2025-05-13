@@ -4,6 +4,9 @@ This project aims to classify ADHD using ECG signals with a deep learning model.
 
 ## Project Structure
 
+### /ECG-data
+Age-matched ECG data, ranging from 6 to 12 years old, wereuploaded, including 6-second ECG recordings sampled at 500 Hz, alongwith age, gender, and label. The ADHD to HC ratio was 1:1 for each agegroup, totaling 8,644 samples. The data is provided in numpy format (`ADHD_data.rar`).
+
 ### /models
 Contains the neural network model definition (`cnn_adhd.py`).
 
